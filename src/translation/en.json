@@ -1,0 +1,135 @@
+{
+  "table": {
+    "header": {
+      "id": "ID",
+      "name": "Name",
+      "last_name": "Last Name",
+      "age": "Age",
+      "job": "Job",
+      "education_degree": "Education Degree",
+      "economic_status": "Economic Status",
+      "phone": "Phone",
+      "address": "Address",
+      "work_address": "Work Address",
+      "action": "Action"
+    },
+    "button": "Add User",
+    "details": "Details"
+  },
+  "navbar": {
+    "lang": {
+      "en": "English",
+      "per": "Persian"
+    },
+    "search": "Search ...",
+    "select": "Select Language"
+  },
+  "create_customer_table": {
+    "header": "Inter your details",
+    "button": "Submit",
+    "select": ["Good", "Normal", "Bad"]
+  },
+  "customer_status": {
+    "header": "Fill out the box",
+    "inputs": {
+      "heath_now": "Your health now",
+      "surgery": "Do you have surgery",
+      "blood": "Do you have blood pressure",
+      "examination": "Last examination",
+      "under_cera": "Are you under care now",
+      "sugar": "Do you have sugar",
+      "hospitalize": "Are you being in Hospitalization",
+      "allargy": "Do you have allergy",
+      "use_midicnt": "Do you use any medicant",
+      "description": "Description"
+    },
+    "table": {
+      "heath_now": "health now",
+      "surgery": "surgery",
+      "blood": "blood pressure",
+      "examination": "Last examination",
+      "under_cera": "under care",
+      "sugar": "sugar",
+      "hospitalize": "Hospitalization",
+      "allargy": "allergy",
+      "use_midicnt": "medicant",
+      "description": "Description"
+    },
+    "date": "Pick a date"
+  },
+  "customer_dieses": {
+    "stroke": "Do you have stroke",
+    "pacemaker": "Do you have pacemaker",
+    "heart_attack": "Did you have heart attack",
+    "epilepsy": "Do you have epilepsy",
+    "asthma": "Do you have asthma",
+    "nervous_disorder": "Do you have nervous disorder",
+    "addiction": "Do you have addiction",
+    "liver_disorder": "Do you have liver disorder",
+    "kidney_disorder": "Do you have kidney disorder problems",
+    "allergy": "Do you have any allergy",
+    "stomach_ulcer": "Do you have stomach ulcer problems",
+    "tuberculosis": "Do you have tuberculosis problems",
+    "insomnia": "Do you have any insomnia problems",
+    "hepatitis": "Do you have hepatitis problems",
+    "aids": "Do you have aids problems",
+    "pregnancy": "Are you in pregnancy",
+    "cancer": "Do you have cancer problems",
+    "radiotherapy": "Do you have Radiotherapy",
+    "table": {
+      "stroke": "stroke",
+      "pacemaker": "pacemaker",
+      "heart_attack": "attack",
+      "epilepsy": "epilepsy",
+      "asthma": "asthma",
+      "nervous_disorder": "disorder",
+      "addiction": "addiction",
+      "liver_disorder": "disorder",
+      "kidney_disorder": "kidney disorder",
+      "allergy": "allergy",
+      "stomach_ulcer": "stomach ulcer",
+      "tuberculosis": "tuberculosis",
+      "insomnia": "insomnia",
+      "hepatitis": "hepatitis",
+      "aids": "aids",
+      "pregnancy": "pregnancy",
+      "cancer": "cancer",
+      "radiotherapy": "Radiotherapy"
+    }
+  },
+  "customer_details": {
+    "buttons": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "ignore": "Ignore"
+    },
+    "delete_massage": "Are you sour to delete the customer",
+    "headers": {
+      "customer_details": "Customer Details",
+      "customer_status": "Customer Status",
+      "customer_disease": "Customer Diseases"
+    },
+    "link" : "See Factor"
+  },
+  "toasts": {
+    "error": "Some Thins Wrong ",
+    "updated": "Updated Secsusfuly",
+    "deleted": "Deleted Secsusfuly",
+    "success_create": "Customer Update Secsusfuly",
+    "no_phone": "Enter a phone",
+    "invalid_": "Enter a valid phone number"
+  },
+  "search": {
+    "no_data": "No Data At Given Phone Number",
+    "result": "Result"
+  },
+  "customer_plane": {
+    "header": "Customer Treatment Plane",
+    "table": {
+      "teeth_number": "Teeth Number",
+      "teeth_problem": "Teeth Treatment",
+      "addButton" : "Add Plane",
+      "save" : "Save"
+    }
+  }
+}

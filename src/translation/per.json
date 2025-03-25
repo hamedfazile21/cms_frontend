@@ -1,0 +1,136 @@
+{
+  "table": {
+    "header": {
+      "id": "شماره",
+      "name": "نام",
+      "last_name": "تخلص",
+      "age": "سن",
+      "job": "وظیفه",
+      "education_degree": "سطح تحصیل",
+      "economic_status": "سطح اقتصادی",
+      "phone": "شماره تماس",
+      "address": "ادرس خانه",
+      "work_address": "محل کار",
+      "action": "ملاحظات"
+    },
+    "button": "ثبت مشتری",
+    "details": "مشخصات"
+  },
+  "navbar": {
+    "lang": {
+      "en": "انگلیسی",
+      "per": "فارسی"
+    },
+    "search": "جستجو",
+    "select": "انتخاب زبان"
+  },
+  "create_customer_table": {
+    "header": "مشخصات خود را وارد کنید",
+    "button": "ثبت",
+    "select": ["خوب", "نورمال", "بد"]
+  },
+  "customer_status": {
+    "header": "خانه خالی های زیر را پر کنید",
+    "inputs": {
+      "heath_now": "صحت فعلی",
+      "surgery": "تا به حال عمل جراحی داشتید ؟؟",
+      "blood": "فشار خون دارید",
+      "examination": "اخرین باری که به داکتر مراجعه کردید",
+      "under_cera": "تحت درمان هستید",
+      "sugar": "قند دارید",
+      "hospitalize": "بستری هستید",
+      "allargy": "الرژی دارید ",
+      "use_midicnt": "کدام داروی مصرف می کنید",
+      "description": "توضیحات"
+    },
+    "table": {
+      "heath_now": "صحت فعلی",
+      "surgery": "جراحی",
+      "blood": "فشار خون",
+      "examination": "اخرین مراجعه",
+      "under_cera": "تحت مراقبه",
+      "sugar": "شکر",
+      "hospitalize": "بستری",
+      "allargy": "الرژی",
+      "use_midicnt": "داروها",
+      "description": "توضیحات"
+    },
+    "date": "اتنخاب تاریخ"
+  },
+  "customer_dieses": {
+    "stroke": "آیا سکته کرده‌اید",
+    "pacemaker": "آیا ضربان قلب دارید",
+    "heart_attack": "آیا حمله قلبی داشته‌اید",
+    "epilepsy": "آیا صرع دارید",
+    "asthma": "آیا آسم دارید",
+    "nervous_disorder": "آیا اختلال عصبی دارید",
+    "addiction": "آیا اعتیاد دارید",
+    "liver_disorder": "آیا اختلال کبدی دارید",
+    "kidney_disorder": "آیا مشکلات کلیوی دارید",
+    "allergy": "آیا آلرژی دارید",
+    "stomach_ulcer": "آیا مشکلات زخم معده دارید",
+    "tuberculosis": "آیا مشکلات سل دارید",
+    "insomnia": "آیا مشکلات بی‌خوابی دارید",
+    "hepatitis": "آیا مشکلات هپاتیت دارید",
+    "aids": "آیا مشکلات ایدز دارید",
+    "pregnancy": "آیا باردار هستید",
+    "cancer": "آیا مشکلات سرطان دارید",
+    "radiotherapy": "رادیوتراپی دارید",
+    "table": {
+      "stroke": "سکته",
+      "pacemaker": "ضربان قلب",
+      "heart_attack": "حمله قلبی",
+      "epilepsy": "صرع",
+      "asthma": "آسم",
+      "nervous_disorder": "اختلال عصبی",
+      "addiction": "اعتیاد",
+      "liver_disorder": "اختلال کبدی",
+      "kidney_disorder": "مشکلات کلیوی",
+      "allergy": "آلرژی",
+      "stomach_ulcer": "زخم معده",
+      "tuberculosis": "سل",
+      "insomnia": "بی‌خوابی",
+      "hepatitis": "هپاتیت",
+      "aids": "ایدز",
+      "pregnancy": "باردار",
+      "cancer": "سرطان",
+      "radiotherapy": "رادیوتراپی"
+    }
+  },
+  "customer_details": {
+    "buttons": {
+      "edit": "اپدیت",
+      "delete": "حذف",
+      "ignore": "لغو"
+    },
+    "delete_massage": "از حذف این مشتری مطمان هستید",
+    "headers": {
+      "customer_details": "مشخصات مشتری",
+      "customer_status": "وضعیت مشتری",
+      "customer_disease": "امراض مشتری"
+    },
+    "link" : "مشاهده فاکتور"
+
+  },
+  "toasts": {
+    "error": "مشکلی پیش اماده است",
+    "updated": "موفقانه اپدیت شد",
+    "deleted": "موفقانه حذف شد",
+    "success_create": "موفقانه ساخته شد",
+    "no_phone": "شماره تماس را وارد کنید",
+    "invalid_phone": "شماره درست نیست"
+  },
+  "search": {
+    "no_data": "مشتری یافت نشد با این شماره",
+    "result": "نتیجه"
+  },
+  "customer_plane": {
+    "header": "پلان درمان مشتری",
+    "table": {
+      "teeth_number": "شماره دندان",
+      "teeth_problem": "درمان دندان",
+      "addButton": "اظافه کردن پلان",
+      "save" : "ذخیره"
+    }
+  }
+}
