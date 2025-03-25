@@ -1,4 +1,3 @@
-import React, { use, useEffect } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
@@ -27,7 +26,7 @@ import { Input } from "@/components/ui/input";
 import { update } from "@/utils/types";
 import { useTranslation } from "react-i18next";
 const CreateCustomer = () => {
-  const { t, i18n } = useTranslation("global");
+  const { t } = useTranslation("global");
 
   const { method, id } = useParams();
   const storedUserString = (localStorage.getItem("user") as string) ?? "";

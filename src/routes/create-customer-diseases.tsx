@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { diseasesFromSchema } from "../utils/fromSchema";
 import { useForm } from "react-hook-form";
@@ -60,8 +59,7 @@ const CreateCustomerDiseases = () => {
     },
   });
   const navigate = useNavigate();
-  const date = new Date().toISOString();
-  const { t, i18n } = useTranslation("global");
+  const { t} = useTranslation("global");
 
   async function onSubmit(values: z.infer<typeof diseasesFromSchema>) {
     try {

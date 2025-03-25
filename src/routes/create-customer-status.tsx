@@ -1,10 +1,8 @@
-import React from "react";
 import { useParams } from "react-router-dom";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
-import { string, z } from "zod";
+import {  z } from "zod";
 import { statusFromSchema } from "@/utils/fromSchema";
-import { customer_status } from "@/utils/types";
 import api from "../utils/post";
 import { Button } from "@/components/ui/button";
 import {
@@ -40,7 +38,7 @@ import { useTranslation } from "react-i18next";
 // import { format } from "util";
 const CreateCustomerStatus = () => {
   const { id, method } = useParams();
-  
+
   const getFromStorage = (localStorage.getItem("details_status") as string) ?? "";
   // const getFromStorage = localStorage.getItem("details_status");
   const data = JSON.parse(getFromStorage) as any;

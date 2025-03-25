@@ -1,4 +1,3 @@
-import React from "react";
 import { customer_disease } from "@/utils/types";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
