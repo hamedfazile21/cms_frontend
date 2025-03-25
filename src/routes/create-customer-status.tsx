@@ -40,7 +40,9 @@ import { useTranslation } from "react-i18next";
 // import { format } from "util";
 const CreateCustomerStatus = () => {
   const { id, method } = useParams();
-  const getFromStorage = localStorage.getItem("details_status");
+  
+  const getFromStorage = (localStorage.getItem("details_status") as string) ?? "";
+  // const getFromStorage = localStorage.getItem("details_status");
   const data = JSON.parse(getFromStorage) as any;
   const date = localStorage.getItem("epoch_date") as any;
   const dateObject = new Date(date);

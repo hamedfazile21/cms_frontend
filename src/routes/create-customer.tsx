@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { use, useEffect } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { useParams } from "react-router-dom";
@@ -30,9 +30,8 @@ const CreateCustomer = () => {
   const { t, i18n } = useTranslation("global");
 
   const { method, id } = useParams();
-  const storedUserString = localStorage.getItem("user");
+  const storedUserString = (localStorage.getItem("user") as string) ?? "";
   const data = JSON.parse(storedUserString) as any | update;
-
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {

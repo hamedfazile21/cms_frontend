@@ -29,10 +29,10 @@ import { Input } from "@/components/ui/input";
 import { useTranslation } from "react-i18next";
 const CreateCustomerDiseases = () => {
   const { id, method } = useParams();
-  const getFromLocalStorage = localStorage.getItem("details_diseases");
-  let data = undefined;
+  const storedData = localStorage.getItem("diseaseData");
+  let data  = undefined;
   if (method == "create") {
-    data = JSON.parse<customer_disease | any>(getFromLocalStorage);
+    data = storedData ? JSON.parse(storedData) : {} as customer_disease;
   }
 
   const form = useForm<z.infer<typeof diseasesFromSchema>>({
